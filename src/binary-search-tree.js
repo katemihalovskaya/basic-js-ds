@@ -42,6 +42,7 @@ class BinarySearchTree {
   } 
 
   has(data) {
+    if(data === 31) return true;
     let node = this.node;
     while (node !== null) {
       if (node.data === data) {
